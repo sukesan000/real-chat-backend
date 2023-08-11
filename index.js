@@ -5,8 +5,8 @@ const app = express();
 //const frontendUrl = "http://localhost:3000";
 //const mongodbUri = "mongodb://localhost:27017/real_chat";
 //商用環境
-const frontendUrl = "http://160.248.8.135:3000";
-const mongodbUri = "mongodb://160.248.8.135:27017/real_chat";
+const frontendUrl = "http://real-chat-frontend.vercel.app";
+const mongodbUri = "mongodb://160.248.0.197:27017/real_chat";
 
 console.log("frontendUrl: " + frontendUrl);
 console.log("mongodbUri: " + mongodbUri);
